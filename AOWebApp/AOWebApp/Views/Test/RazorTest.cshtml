@@ -1,0 +1,64 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "RazorTest";
+
+}
+
+@{
+    var a = 10;
+
+    var b = 14;
+
+    var sum = a + b;
+    ViewBag.sum = sum;
+}
+
+<h1>
+   TestController RazorTest
+</h1>
+
+<p>
+    The sum is : @ViewBag.sum
+</p>
+
+<div class="text-center">
+    @{
+        var int_array = new int[ ] { 1, 2, 3, 4, 5, 6, 7 };
+    }
+
+    @foreach( var i in int_array)
+    {
+
+
+        <p> @ViewBag.name is @i  years old Now!</p>
+    }
+    
+    @{
+        var coords = new[] { new { x = 1, y = 2}, new {x = 2, y = 3}, new {x = 3, y =4} 
+        };
+    }
+    @foreach(var e in coords)
+    {
+        <p> coordinates: @e.x , @e.y</p>
+    }
+
+ 
+    <p>Your ID is: @ViewData["id"]</p> <br />
+
+    <p>Your Name is: @ViewBag.name</p>
+
+    <div> <a asp-action="RazorTest" asp-controller="Test" >Tag Helper</a></div>
+    <div><a href="/Test/RazorTest/id?/name=Kevin">A href</a> </div>
+
+   
+    <form method="post" asp-controller="Test" asp-action="RazorTest"  asp-route-id="1234" asp-route-name="Peter">
+        <label for =" name">Name: </label>
+        <input type = "text" name = "name" />
+        <lable for = "id">Id: </lable>
+        <input type="text" name=" id"/>
+        <button type="submit"> Save</button>
+    </form>    
+
+</div>

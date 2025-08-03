@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AOWebApp",
+    "\\AOWebApp\\AOWebApp",
+    "\\AOWebApp\\AOWebApp\\Controllers",
+    "\\AOWebApp\\AOWebApp\\Views",
+    "\\AOWebApp\\AOWebApp\\Views\\Home",
+    "\\AOWebApp\\AOWebApp\\Views\\Shared"
+  ],
+  "SelectedNode": "\\AOWebApp\\AOWebApp\\Views\\Home\\Privacy.cshtml",
+  "PreviewInSolutionExplorer": false
+}

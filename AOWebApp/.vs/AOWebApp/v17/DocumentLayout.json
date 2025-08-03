@@ -1,0 +1,97 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\web_tech\\AOWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\views\\test\\razortest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\test\\razortest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "AOWebApp\\Program.cs",
+              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Program.cs",
+              "RelativeToolTip": "AOWebApp\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:28:37.887Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-03T05:34:39.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RazorTest.cshtml",
+              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Test\\RazorTest.cshtml",
+              "RelativeDocumentMoniker": "AOWebApp\\Views\\Test\\RazorTest.cshtml",
+              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Test\\RazorTest.cshtml",
+              "RelativeToolTip": "AOWebApp\\Views\\Test\\RazorTest.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T05:03:19.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "AOWebApp\\Controllers\\TestController.cs",
+              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Controllers\\TestController.cs",
+              "RelativeToolTip": "AOWebApp\\Controllers\\TestController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T04:49:06.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
