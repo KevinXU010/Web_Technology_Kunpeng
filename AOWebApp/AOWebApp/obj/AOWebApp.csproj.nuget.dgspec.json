@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\web_tech\\AOWebApp\\AOWebApp\\AOWebApp.csproj": {}
+    "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\AOWebApp.csproj": {}
   },
   "projects": {
-    "D:\\web_tech\\AOWebApp\\AOWebApp\\AOWebApp.csproj": {
+    "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\AOWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\web_tech\\AOWebApp\\AOWebApp\\AOWebApp.csproj",
+        "projectUniqueName": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\AOWebApp.csproj",
         "projectName": "AOWebApp",
-        "projectPath": "D:\\web_tech\\AOWebApp\\AOWebApp\\AOWebApp.csproj",
+        "projectPath": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\AOWebApp.csproj",
         "packagesPath": "C:\\Users\\kxu39\\.nuget\\packages\\",
-        "outputPath": "D:\\web_tech\\AOWebApp\\AOWebApp\\obj\\",
+        "outputPath": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -57,6 +57,26 @@
             "Microsoft.AspNetCore.Razor.Runtime": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

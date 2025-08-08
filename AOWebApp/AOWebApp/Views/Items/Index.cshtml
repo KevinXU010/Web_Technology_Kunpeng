@@ -1,0 +1,92 @@
+﻿@model IEnumerable<AOWebApp.Models.Item>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+<div class="bg-secondary-subtle py-1 px-2 mb-2 rounded">
+    <h1 class="text-center">Shop Items</h1>
+</div>
+
+<p>
+    <a class="btn btn-outline-info" asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Items" asp-action="Index" method="post">
+    <div>
+        <label for="searchText">Item Search:</label>
+        <input type="text" id="searchText" name="searchText" class="form-control w-25 d-inline-block" placeholder="Type here..." />
+        <button type="submit" class="btn btn-outline-info">Search</button>
+        
+    </div>
+</form>
+
+
+@* <table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemCost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ItemImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemDescription)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ItemImage)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.CategoryId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ItemId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ItemId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ItemId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+ *@
+
+<div class="row  justify-content-center">
+    @foreach(var item in Model)
+    {
+        <div class="card col-3 m-1">
+            <div class="card-body">
+                <h5 class="card-title" style="font-weight: bold;">@item.ItemName</h5>
+                <p>Category: @item.Category.CategoryName</p>
+                <p class="card-text">Description: @item.ItemDescription</p>
+                <p>Cost: @item.ItemCost $</p>
+                <img src="@item.ItemImage" class="card-img-bottom"  alt="@item.ItemName image" />
+                
+            </div>
+            <div><a class="btn btn-outline-info" asp-action="Details" asp-route-id="@item.ItemId">View Item Detail</a> </div><br/>
+          
+            
+        </div>
+    }
+</div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AOWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1d94bb14ba10ebe033825eca3102c9ffd42adfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AOWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AOWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

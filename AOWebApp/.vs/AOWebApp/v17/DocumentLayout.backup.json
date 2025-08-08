@@ -1,22 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\web_tech\\AOWebApp\\",
+  "WorkspaceRootPath": "D:\\Web_tech_Database_1st\\AOWebApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\views\\test\\razortest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\views\\test\\razortest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\test\\razortest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\items\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech\\aowebapp\\aowebapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\items\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\data\\amazonorders2025context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\data\\amazonorders2025context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebapp\\aowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,35 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "AOWebApp\\Program.cs",
-              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Program.cs",
-              "RelativeToolTip": "AOWebApp\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T06:28:37.887Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "AOWebApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "AOWebApp\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAgwBwAAACAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-03T05:34:39.289Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -65,28 +50,93 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RazorTest.cshtml",
-              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Test\\RazorTest.cshtml",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Test\\RazorTest.cshtml",
               "RelativeDocumentMoniker": "AOWebApp\\Views\\Test\\RazorTest.cshtml",
-              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Views\\Test\\RazorTest.cshtml",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Test\\RazorTest.cshtml",
               "RelativeToolTip": "AOWebApp\\Views\\Test\\RazorTest.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-02T05:03:19.369Z",
+              "WhenOpened": "2025-08-08T04:13:51.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Items\\Edit.cshtml",
+              "RelativeDocumentMoniker": "AOWebApp\\Views\\Items\\Edit.cshtml",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Items\\Edit.cshtml",
+              "RelativeToolTip": "AOWebApp\\Views\\Items\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T07:00:29.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Items\\Index.cshtml",
+              "RelativeDocumentMoniker": "AOWebApp\\Views\\Items\\Index.cshtml",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Items\\Index.cshtml",
+              "RelativeToolTip": "AOWebApp\\Views\\Items\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-07T02:27:57.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "D:\\web_tech\\AOWebApp\\AOWebApp\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "AOWebApp\\Controllers\\TestController.cs",
-              "ToolTip": "D:\\web_tech\\AOWebApp\\AOWebApp\\Controllers\\TestController.cs",
-              "RelativeToolTip": "AOWebApp\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwDMAAAAAAAAAAAAAAA==",
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "AOWebApp\\Controllers\\ItemsController.cs",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "AOWebApp\\Controllers\\ItemsController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAB4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-02T04:49:06.15Z",
+              "WhenOpened": "2025-08-04T06:55:59.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AmazonOrders2025Context.cs",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Data\\AmazonOrders2025Context.cs",
+              "RelativeDocumentMoniker": "AOWebApp\\Data\\AmazonOrders2025Context.cs",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Data\\AmazonOrders2025Context.cs",
+              "RelativeToolTip": "AOWebApp\\Data\\AmazonOrders2025Context.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwM8AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T06:54:48.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\appsettings.json",
+              "RelativeDocumentMoniker": "AOWebApp\\appsettings.json",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\appsettings.json",
+              "RelativeToolTip": "AOWebApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAADnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-04T06:38:42.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebApp\\AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AOWebApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-03T05:34:39.289Z",
               "EditorCaption": ""
             }
           ]
