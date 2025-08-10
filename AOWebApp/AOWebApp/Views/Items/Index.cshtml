@@ -15,8 +15,9 @@
 <form asp-controller="Items" asp-action="Index" method="post">
     <div>
         <label for="searchText">Item Search:</label>
-        <input type="text" id="searchText" name="searchText" class="form-control w-25 d-inline-block" placeholder="Type here..." />
+        <input type="text" id="searchText" name="searchText" class="form-control" placeholder="Type here..." value="@ViewBag.searchText"/> <br />
         <button type="submit" class="btn btn-outline-info">Search</button>
+        <button type="submit" class="btn btn-outline-danger">Reset</button>
         
     </div>
 </form>

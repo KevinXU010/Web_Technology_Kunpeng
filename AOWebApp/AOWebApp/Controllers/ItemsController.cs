@@ -19,24 +19,25 @@ namespace AOWebApp.Controllers
         }
 
         // GET: Items
-        public async Task<IActionResult> Index()
-        {
-            var amazonOrders2025Context = _context.Items.Include(i => i.Category);
-            return View(await amazonOrders2025Context.ToListAsync());
-        }
+        //public async Task<IActionResult> Index()
+        //{
+        //    var amazonOrders2025Context = _context.Items.Include(i => i.Category);
+        //    return View(await amazonOrders2025Context.ToListAsync());
+        //}
 
-        //POST:Items/Index
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> searchItem(string searchString)
+        public async Task<IActionResult>Index(string searchText)
         {
-            var items = from i in _context.Items.Include(i => i.Category)
-                        select i;
-            if (!String.IsNullOrEmpty(searchString))
+            var amazonOrdersContext = _context.Items
+                .Include(i => i.Category)
+                .OrderBy(i => i.ItemName)
+                .AsQueryable();
+            if (!string.IsNullOrWhiteSpace(searchText))
             {
-                items = items.Where(i => i.ItemName.Contains(searchString) || i.ItemDescription.Contains(searchString));
+                amazonOrdersContext = amazonOrdersContext
+                    .Where(i => i.ItemName.Contains(searchText));
             }
-            return View(await items.ToListAsync());
+            return View(await amazonOrdersContext.ToListAsync());
+
         }
 
         // GET: Items/Details/5
