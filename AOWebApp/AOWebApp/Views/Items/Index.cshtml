@@ -1,5 +1,4 @@
-﻿@model IEnumerable<AOWebApp.Models.Item>
-
+﻿@model AOWebApp.Models.ViewModels.ItemSearchViewModel
 @{
     ViewData["Title"] = "Index";
 
@@ -15,12 +14,29 @@
 <form asp-controller="Items" asp-action="Index" method="post">
     <div>
         <label for="searchText">Item Search:</label>
-        <input type="text" id="searchText" name="searchText" class="form-control" placeholder="Type here..." value="@ViewBag.searchText"/> <br />
+        <input asp-for="SearchText" class="form-control" placeholder="Type here..." title="Search by item name. Max 100 chars." /> 
+        <span asp-validation-for="SearchText" class="text-danger"></span>
+        <br />
+
         <button type="submit" class="btn btn-outline-info">Search</button>
-        <button type="submit" class="btn btn-outline-danger">Reset</button>
+        <a asp-action ="index" class="btn btn-danger">Reset</a>
+        <br />
+
+        <select asp-for="CategoryId" class="form-control" asp-items="Model.CategoryList">
+            <option value="">All Categories...</option>
+        </select>
         
     </div>
 </form>
+
+@if (!string.IsNullOrWhiteSpace(Model.SearchText) || Model.CategoryId.HasValue)
+{
+    <p>Your search returned @Model.ItemList.Count matching item@(Model.ItemList.Count != 1 ? "s" : "")</p>
+}
+else
+{
+    <p>Showing @Model.ItemList.Count items</p>
+}
 
 
 @* <table class="table">
@@ -74,14 +90,16 @@
  *@
 
 <div class="row  justify-content-center">
-    @foreach(var item in Model)
+    @foreach (var item in Model.ItemList)
     {
+       
         <div class="card col-3 m-1">
             <div class="card-body">
                 <h5 class="card-title" style="font-weight: bold;">@item.ItemName</h5>
-                <p>Category: @item.Category.CategoryName</p>
+                <p>Category:  @item.CategoryName</p>
                 <p class="card-text">Description: @item.ItemDescription</p>
                 <p>Cost: @item.ItemCost $</p>
+                <p>Rating: @item.RatingText</p>
                 <img src="@item.ItemImage" class="card-img-bottom"  alt="@item.ItemName image" />
                 
             </div>

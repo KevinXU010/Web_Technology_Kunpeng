@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AOWebApp.Models;
+using AOWebApp.Models.ViewModels;
 
 namespace AOWebApp.Controllers
 {
@@ -18,6 +19,52 @@ namespace AOWebApp.Controllers
             _context = context;
         }
 
+       
+        public async Task<IActionResult> Index(ItemSearchViewModel vm)
+        {
+            var categories = await _context.ItemCategories
+                .Where(c => c.ParentCategoryId == null)
+                .OrderBy(c => c.CategoryName)
+                .Select(c => new { c.CategoryId, c.CategoryName })
+                .ToListAsync();
+            vm.CategoryList = new SelectList(categories, "CategoryId", "CategoryName", vm.CategoryId);
+
+            var q = _context.Items.AsNoTracking().AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(vm.SearchText))
+            {
+                var text = vm.SearchText.Trim();
+                q = q.Where(i => i.ItemName.Contains(text));
+            }
+            if (vm.CategoryId.HasValue)
+            {
+
+                q= q.Where(i => i.Category.ParentCategoryId == vm.CategoryId);
+             
+            }
+
+            vm.ItemList = await q
+                .Select(i => new ItemWithRatingViewModel
+                {
+                    ItemId = i.ItemId,
+                    ItemName = i.ItemName,
+                    ItemDescription = i.ItemDescription,
+                    ItemCost = i.ItemCost,
+                    ItemImage = i.ItemImage,
+                    CategoryName = i.Category.CategoryName,
+                    ReviewCount = i.Reviews.Count(),
+                    AverageRating = i.Reviews.Select(r => (double?)r.Rating).Average() ?? 0
+
+                })
+                .OrderBy(x => x.ItemName)
+                .ToListAsync();
+
+
+
+            return View(vm);
+        }
+            
+
         // GET: Items
         //public async Task<IActionResult> Index()
         //{
@@ -25,20 +72,45 @@ namespace AOWebApp.Controllers
         //    return View(await amazonOrders2025Context.ToListAsync());
         //}
 
-        public async Task<IActionResult>Index(string searchText)
-        {
-            var amazonOrdersContext = _context.Items
-                .Include(i => i.Category)
-                .OrderBy(i => i.ItemName)
-                .AsQueryable();
-            if (!string.IsNullOrWhiteSpace(searchText))
-            {
-                amazonOrdersContext = amazonOrdersContext
-                    .Where(i => i.ItemName.Contains(searchText));
-            }
-            return View(await amazonOrdersContext.ToListAsync());
+        //public async Task<IActionResult>Index(string searchText, int? CategoryId)
+        //{
+        //    #region CatrgoriesQuery
+        //    var Categories = _context.ItemCategories
+        //        .Where(c => c.ParentCategoryId == null)
+        //        .OrderBy(c => c.CategoryName)
+        //        .Select(c => new { c.CategoryId, c.CategoryName })
+        //        .ToList();
 
-        }
+        //    ViewBag.CategoryList = new SelectList(Categories,
+        //        nameof(ItemCategory.CategoryId),
+        //        nameof(ItemCategory.CategoryName),
+        //        CategoryId);  // This will be used to populate the dropdown list in the view
+
+        //    #endregion
+
+        //    #region ItemQuery
+        //    ViewBag.SearchText = searchText;
+        //    var amazonOrdersContext = _context.Items                
+        //        .Include(i => i.Category)
+        //        .Include(i => i.Reviews)
+        //        .OrderBy(i => i.ItemName)
+        //        .AsQueryable();
+        //    if (!string.IsNullOrWhiteSpace(searchText))
+        //    {
+        //        amazonOrdersContext = amazonOrdersContext
+        //            .Where(i => i.ItemName.Contains(searchText));
+
+        //    }
+        //    if (CategoryId != null)
+        //    {
+        //        amazonOrdersContext = amazonOrdersContext
+        //            .Where(i => i.Category.ParentCategoryId == CategoryId);
+        //    }
+        //    #endregion
+
+        //    return View(await amazonOrdersContext.ToListAsync());
+        // }
+
 
         // GET: Items/Details/5
         public async Task<IActionResult> Details(int? id)
