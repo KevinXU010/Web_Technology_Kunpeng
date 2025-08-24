@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Web_tech_Database_1st\\AOWebAppProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\wwwroot\\testapis.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\wwwroot\\testapis.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\viewmodels\\itemsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\viewmodels\\itemsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\wwwroot\\itemindex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\wwwroot\\itemindex.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\controllers\\parentcategorieswebapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\controllers\\parentcategorieswebapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\controllers\\itemswebapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\controllers\\itemswebapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\viewmodels\\itemsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\viewmodels\\itemsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\viewmodels\\itemwithratingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\viewmodels\\itemwithratingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\controllers\\itemswebapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|solutionrelative:aowebapp\\controllers\\itemswebapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DA542FE2-7008-4BC3-AE62-9417573CA2F9}|AOWebApp\\AOWebApp.csproj|d:\\web_tech_database_1st\\aowebappproject\\aowebapp\\views\\customers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -56,45 +56,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TestAPIs.html",
-              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\wwwroot\\TestAPIs.html",
-              "RelativeDocumentMoniker": "AOWebApp\\wwwroot\\TestAPIs.html",
-              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\wwwroot\\TestAPIs.html",
-              "RelativeToolTip": "AOWebApp\\wwwroot\\TestAPIs.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAwAAAAAAAAAA==",
+              "Title": "ItemIndex.html",
+              "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\wwwroot\\ItemIndex.html",
+              "RelativeDocumentMoniker": "AOWebApp\\wwwroot\\ItemIndex.html",
+              "ToolTip": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\wwwroot\\ItemIndex.html",
+              "RelativeToolTip": "AOWebApp\\wwwroot\\ItemIndex.html",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAywGsAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-08-22T04:22:45.119Z",
+              "WhenOpened": "2025-08-23T05:37:47.467Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ParentCategoriesWebAPIController.cs",
               "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\Controllers\\ParentCategoriesWebAPIController.cs",
               "RelativeDocumentMoniker": "AOWebApp\\Controllers\\ParentCategoriesWebAPIController.cs",
               "ToolTip": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\Controllers\\ParentCategoriesWebAPIController.cs",
               "RelativeToolTip": "AOWebApp\\Controllers\\ParentCategoriesWebAPIController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-22T04:13:18.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ItemsWebAPIController.cs",
               "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\Controllers\\ItemsWebAPIController.cs",
               "RelativeDocumentMoniker": "AOWebApp\\Controllers\\ItemsWebAPIController.cs",
               "ToolTip": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\Controllers\\ItemsWebAPIController.cs",
               "RelativeToolTip": "AOWebApp\\Controllers\\ItemsWebAPIController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwBkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-22T02:50:19.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-22T02:50:19.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ItemWithRatingViewModel.cs",
               "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\ViewModels\\ItemWithRatingViewModel.cs",
               "RelativeDocumentMoniker": "AOWebApp\\ViewModels\\ItemWithRatingViewModel.cs",
@@ -102,12 +101,11 @@
               "RelativeToolTip": "AOWebApp\\ViewModels\\ItemWithRatingViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:40:03.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T06:40:03.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ItemSearchViewModel.cs",
               "DocumentMoniker": "D:\\Web_tech_Database_1st\\AOWebAppProject\\AOWebApp\\ViewModels\\ItemSearchViewModel.cs",
               "RelativeDocumentMoniker": "AOWebApp\\ViewModels\\ItemSearchViewModel.cs",
@@ -115,8 +113,7 @@
               "RelativeToolTip": "AOWebApp\\ViewModels\\ItemSearchViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T06:39:50.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T06:39:50.104Z"
             }
           ]
         }

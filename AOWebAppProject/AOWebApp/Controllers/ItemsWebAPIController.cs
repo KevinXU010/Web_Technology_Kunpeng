@@ -23,7 +23,7 @@ namespace AOWebApp.Controllers
 
         // GET: api/ItemsWebAPI
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Item>>> GetItems(string? searchText, int? categoryId)
+        public async Task<ActionResult<IEnumerable<object>>> GetItems(string? searchText, int? categoryId)
         {
 
             var q = _context.Items
@@ -41,7 +41,23 @@ namespace AOWebApp.Controllers
                 q = q.Where(i => i.Category.ParentCategoryId == categoryId);
             }
 
-                return await q.ToListAsync();
+            var result = await q
+                    .OrderBy(i => i.ItemName)
+                    .Select(i => new
+                    {
+                            itemId = i.ItemId,
+                            itemName = i.ItemName,
+                            itemDescription = i.ItemDescription,
+                            itemCost = i.ItemCost,
+                            itemImage = i.ItemImage,
+                            categoryId = i.CategoryId,
+                            categoryName = i.Category.CategoryName
+                    })
+                    .ToListAsync();
+
+            return Ok(result);
+
+            
         }
 
         // GET: api/ItemsWebAPI/5
