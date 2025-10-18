@@ -1,0 +1,49 @@
+﻿@model SelectList
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+<div class="bg-light py-2 mb-2">
+    <h2 class="text-center">Annual Sales Report</h2>
+</div>
+
+<div class="mb-3">
+    <div class="col-3">
+        <label for="reportSelect" class="form-label">Year</label>
+        <select id="reportSelect" name="year" asp-items="@Model" class="form-select">
+            <option value="">Select...</option>
+        </select>
+    </div>
+    <ul id="itemList" class="mt-3"></ul>
+</div>
+
+
+<script>
+        const sel = document.querySelector('#reportSelect');
+        const ul  = document.querySelector('#itemList');
+        const url = '@Url.Action("AnnualSalesReportData", "Reports")';
+
+        sel.addEventListener('change', (e) => {
+          const year = e.target.value;
+          ul.replaceChildren();
+          if (!year) return;
+
+          fetch(`${url}?year=${encodeURIComponent(year)}`)
+            .then(r => r.ok ? r.json() : Promise.reject(`HTTP ${r.status}`))
+            .then(data => {
+              data.forEach(row => {
+                const li = document.createElement('li');
+                li.innerText = JSON.stringify(row);
+                ul.appendChild(li);
+              });
+            })
+            .catch(err => {
+              const li = document.createElement('li');
+              li.innerText = 'Error: ' + err;
+              ul.appendChild(li);
+            });
+        });
+
+        
+</script>
+
+
+   
