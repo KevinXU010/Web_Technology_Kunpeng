@@ -29,4 +29,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="aowebapp\src\assets\" />
+    <Folder Include="新文件夹\" />
+  </ItemGroup>
+
 </Project>

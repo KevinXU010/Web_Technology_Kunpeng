@@ -945,3 +945,7 @@ D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\obj\Debug\net8.0\staticwebasse
 D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\obj\Debug\net8.0\AOWebApp.csproj.Up2Date
 D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\obj\Debug\net8.0\AOWebApp.genruntimeconfig.cache
 D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\obj\Debug\net8.0\ref\AOWebApp.dll
+D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\package-lock.json
+D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\package.json
+D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\public\manifest.json
+D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\package-lock.json
