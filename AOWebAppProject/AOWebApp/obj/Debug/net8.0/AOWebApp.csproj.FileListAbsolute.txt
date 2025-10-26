@@ -949,3 +949,4 @@ D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\pack
 D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\package.json
 D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\public\manifest.json
 D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\package-lock.json
+D:\Web_tech_Database_1st\AOWebAppProject\AOWebApp\bin\Debug\net8.0\aowebapp\src\assets\itemData.json

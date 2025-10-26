@@ -1,6 +1,7 @@
 
 import './App.css';
 import CardList from './components/CardList';
+import CardListSearch from './components/CardListSearch';
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
               <h2 className = "text-center">Example Application</h2>
           </div>
           <div className="row justify-content-center">
-              <CardList
+              <CardListSearch
               />
           </div>
     </div>

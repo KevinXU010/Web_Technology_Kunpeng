@@ -1,12 +1,23 @@
-﻿import Card from "./CardV3"
-import itemData from "../assets/itemData.json"
+﻿import React, { useState } from 'react'
+import Card from "./Card"
 
-const CardList = ({ }) => {
+const CardList = () => {
 
-    console.log("cardData: " + itemData);
+
+    const [cardData, setState] = useState([ ]);
+    React.useEffect(() => {
+        fetch('http://localhost:5156/api/ItemsWebAPI')
+            .then(response => response.json())
+            .then(data => setState(data))
+            .catch(err => {
+                console.log(err)
+            });
+
+    }, [ ])
+
     return (
         <div className="row">
-            {itemData.map((obj) => (
+            {cardData.map((obj) => (
                 <Card
                     key={obj.itemId}
                     itemId={obj.itemId}
@@ -23,4 +34,4 @@ const CardList = ({ }) => {
     )
 }
 
-export default CardList
+export default CardList;
