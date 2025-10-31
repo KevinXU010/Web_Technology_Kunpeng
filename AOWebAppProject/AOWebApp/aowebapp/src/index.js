@@ -7,8 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Home from "./components/routes/Home"
 import Contact from "./components/routes/Contact"
 import CardListSearch from './components/CardListSearch';
-
-
+import Graph from './components/Graph';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +19,7 @@ root.render(
                 <Route path="/" element={<App />} />
                 <Route path="Home" element={<Home />} />
                 <Route path="Contact" element={<Contact />} />
+                <Route path="Graph" element={<Graph  />} />
                 <Route path="Products" element={<CardListSearch />} />
                 <Route path=" " element={<Home />} />
                 <Route path="*" element={<Home />} />
@@ -30,7 +30,4 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

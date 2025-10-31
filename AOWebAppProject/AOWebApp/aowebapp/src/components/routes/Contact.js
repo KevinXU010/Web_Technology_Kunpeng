@@ -1,4 +1,4 @@
-﻿const Contact = ({ }) => {
+﻿const Contact = ({}) => {
     return (
         <div>
             <h2 className="text-center">

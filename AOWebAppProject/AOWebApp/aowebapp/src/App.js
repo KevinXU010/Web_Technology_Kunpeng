@@ -2,7 +2,6 @@
 import './App.css';
 import CardList from './components/CardList';
 import CardListSearch from './components/CardListSearch';
-import { Link } from "react-router-dom";
 import {Link, Outlet } from "react-router-dom"
 
 
@@ -20,6 +19,7 @@ function App() {
                           <Link className="nav-link active" to="/Home">Home</Link>
                           <Link className="nav-link active" to="/Contact">Contact</Link>
                           <Link className="nav-link active" to="/Products">Products</Link>
+                          <Link className="nav-link active" to="/Graph">Graph</Link>
                             
 
                       </div>
